@@ -1,3 +1,5 @@
+
+
 package org.firstinspires.ftc.teamcode.pedroPathing;
 
 import static org.firstinspires.ftc.teamcode.pedroPathing.Tuning.changes;
@@ -26,6 +28,7 @@ import static com.pedropathing.math.MathFunctions.quadraticFit;
 import android.annotation.SuppressLint;
 
 import com.qualcomm.hardware.lynx.LynxModule;
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.AnalogInput;
