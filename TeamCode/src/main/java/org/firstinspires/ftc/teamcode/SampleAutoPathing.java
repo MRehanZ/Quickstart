@@ -23,7 +23,7 @@ public class SampleAutoPathing extends OpMode {
     private ElapsedTime feederTimer = new ElapsedTime();       // Timer for feeder duration
     private ElapsedTime interShotTimer = new ElapsedTime();    // Timer between shots
 
-
+    
     private Follower follower;
     private Timer pathTimer, opModeTimer;
 
