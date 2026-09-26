@@ -10,7 +10,7 @@ import com.pedropathing.util.Timer;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
 import org.firstinspires.ftc.teamcode.pedroPathing.Constants;
-import org.firstinspires.ftc.teamcode.pedroPathing.Drawing;
+import org.firstinspires.ftc.teamcode.Drawing;
 
 @Autonomous
 public class SampleAutoPathing extends OpMode {
@@ -23,7 +23,7 @@ public class SampleAutoPathing extends OpMode {
     private ElapsedTime feederTimer = new ElapsedTime();       // Timer for feeder duration
     private ElapsedTime interShotTimer = new ElapsedTime();    // Timer between shots
 
-    
+
     private Follower follower;
     private Timer pathTimer, opModeTimer;
 
